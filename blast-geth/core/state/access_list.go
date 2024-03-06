@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/blast/blast-geth/common"
 )
 
 type accessList struct {

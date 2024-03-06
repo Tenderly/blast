@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/tenderly/blast/blast-geth/core/rawdb"
+	"github.com/tenderly/blast/blast-geth/ethdb/memorydb"
+	"github.com/tenderly/blast/blast-geth/trie"
 	"golang.org/x/exp/slices"
 )
 

@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/tenderly/blast/blast-geth/common/prque"
+	"github.com/tenderly/blast/blast-geth/core/rawdb"
+	"github.com/tenderly/blast/blast-geth/core/types"
+	"github.com/tenderly/blast/blast-geth/ethdb"
+	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/tenderly/blast/blast-geth/metrics"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

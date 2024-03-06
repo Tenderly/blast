@@ -26,15 +26,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/tenderly/blast/blast-geth/common/lru"
+	"github.com/tenderly/blast/blast-geth/consensus"
+	"github.com/tenderly/blast/blast-geth/core/rawdb"
+	"github.com/tenderly/blast/blast-geth/core/types"
+	"github.com/tenderly/blast/blast-geth/ethdb"
+	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/tenderly/blast/blast-geth/rlp"
 )
 
 const (
