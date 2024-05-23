@@ -25,17 +25,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/tenderly/blast/blast-geth/common/mclock"
+	"github.com/tenderly/blast/blast-geth/core/rawdb"
+	"github.com/tenderly/blast/blast-geth/core/types"
+	"github.com/tenderly/blast/blast-geth/crypto"
+	"github.com/tenderly/blast/blast-geth/les/flowcontrol"
+	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/tenderly/blast/blast-geth/p2p"
+	"github.com/tenderly/blast/blast-geth/p2p/enode"
+	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/tenderly/blast/blast-geth/rlp"
 )
 
 // requestBenchmark is an interface for different randomized request generators

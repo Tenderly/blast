@@ -10,13 +10,13 @@ for filename in tqdm(glob.glob("blast-geth/**", recursive=True)):
         content = f.read()
 
     newContent = content.replace(
-        b"github.com/tenderly/blast/blast-geth",
         b"github.com/ethereum/go-ethereum",
+        b"github.com/tenderly/blast/blast-geth",
     )
 
     newContent = newContent.replace(
-        b"github.com/ethereum/go-ethereum/crypto/secp256k1",
         b"github.com/tenderly/blast/blast-geth/crypto/secp256k1",
+        b"github.com/ethereum/go-ethereum/crypto/secp256k1",
     )
 
     if newContent != content:
