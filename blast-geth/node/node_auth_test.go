@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common/hexutil"
-	"github.com/tenderly/blast/blast-geth/rpc"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/golang-jwt/jwt/v4"
 )
 

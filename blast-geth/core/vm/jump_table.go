@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 type (

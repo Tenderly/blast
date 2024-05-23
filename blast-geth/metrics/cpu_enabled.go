@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/rpc"
+	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

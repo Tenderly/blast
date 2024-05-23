@@ -20,12 +20,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/common/bitutil"
-	"github.com/tenderly/blast/blast-geth/core/bloombits"
-	"github.com/tenderly/blast/blast-geth/core/rawdb"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/ethdb"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/bitutil"
+	"github.com/ethereum/go-ethereum/core/bloombits"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 const (

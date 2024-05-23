@@ -20,17 +20,17 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/core"
-	"github.com/tenderly/blast/blast-geth/core/state"
-	"github.com/tenderly/blast/blast-geth/core/txpool"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/light"
-	"github.com/tenderly/blast/blast-geth/log"
-	"github.com/tenderly/blast/blast-geth/metrics"
-	"github.com/tenderly/blast/blast-geth/rlp"
-	"github.com/tenderly/blast/blast-geth/trie"
-	"github.com/tenderly/blast/blast-geth/trie/trienode"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/txpool"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/light"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ethereum/go-ethereum/trie/trienode"
 )
 
 // serverBackend defines the backend functions needed for serving LES requests

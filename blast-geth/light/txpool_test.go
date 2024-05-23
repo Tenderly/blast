@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/consensus/ethash"
-	"github.com/tenderly/blast/blast-geth/core"
-	"github.com/tenderly/blast/blast-geth/core/rawdb"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/core/vm"
-	"github.com/tenderly/blast/blast-geth/params"
-	"github.com/tenderly/blast/blast-geth/trie"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/trie"
 )
 
 type testTxRelay struct {

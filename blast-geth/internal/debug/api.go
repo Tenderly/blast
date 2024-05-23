@@ -35,7 +35,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/hashicorp/go-bexpr"
 )
 

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common/mclock"
-	vfs "github.com/tenderly/blast/blast-geth/les/vflux/server"
-	"github.com/tenderly/blast/blast-geth/p2p/enode"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	vfs "github.com/ethereum/go-ethereum/les/vflux/server"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 var errUnknownBenchmarkType = errors.New("unknown benchmark type")

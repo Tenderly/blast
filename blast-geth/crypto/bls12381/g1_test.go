@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 func (g *G1) one() *PointG1 {

@@ -23,11 +23,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/core/rawdb"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/crypto"
-	"github.com/tenderly/blast/blast-geth/trie/trienode"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/trie/trienode"
 )
 
 func newEmptySecure() *StateTrie {

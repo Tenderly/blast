@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func u64(val uint64) *uint64 { return &val }

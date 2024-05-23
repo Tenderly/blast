@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/consensus/ethash"
-	"github.com/tenderly/blast/blast-geth/core/rawdb"
-	"github.com/tenderly/blast/blast-geth/core/vm"
-	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

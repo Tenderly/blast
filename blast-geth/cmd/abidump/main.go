@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tenderly/blast/blast-geth/signer/core/apitypes"
-	"github.com/tenderly/blast/blast-geth/signer/fourbyte"
+	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/ethereum/go-ethereum/signer/fourbyte"
 )
 
 func init() {

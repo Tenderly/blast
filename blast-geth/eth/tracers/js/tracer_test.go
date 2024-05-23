@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/core/state"
-	"github.com/tenderly/blast/blast-geth/core/vm"
-	"github.com/tenderly/blast/blast-geth/eth/tracers"
-	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 type account struct{}

@@ -19,10 +19,10 @@ package catalyst
 import (
 	"sync"
 
-	"github.com/tenderly/blast/blast-geth/beacon/engine"
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/miner"
+	"github.com/ethereum/go-ethereum/beacon/engine"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/miner"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

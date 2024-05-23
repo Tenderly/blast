@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/tenderly/blast/blast-geth/crypto"
-	"github.com/tenderly/blast/blast-geth/rlp"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

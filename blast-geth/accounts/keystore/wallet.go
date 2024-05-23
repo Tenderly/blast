@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/tenderly/blast/blast-geth"
-	"github.com/tenderly/blast/blast-geth/accounts"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/crypto"
+	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

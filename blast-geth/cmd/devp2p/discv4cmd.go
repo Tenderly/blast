@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/cmd/devp2p/internal/v4test"
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/crypto"
-	"github.com/tenderly/blast/blast-geth/internal/flags"
-	"github.com/tenderly/blast/blast-geth/p2p/discover"
-	"github.com/tenderly/blast/blast-geth/p2p/enode"
-	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/params"
 	"github.com/urfave/cli/v2"
 )
 

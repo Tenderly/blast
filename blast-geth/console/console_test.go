@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/console/prompt"
-	"github.com/tenderly/blast/blast-geth/core"
-	"github.com/tenderly/blast/blast-geth/eth"
-	"github.com/tenderly/blast/blast-geth/eth/ethconfig"
-	"github.com/tenderly/blast/blast-geth/internal/jsre"
-	"github.com/tenderly/blast/blast-geth/miner"
-	"github.com/tenderly/blast/blast-geth/node"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/console/prompt"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/eth"
+	"github.com/ethereum/go-ethereum/eth/ethconfig"
+	"github.com/ethereum/go-ethereum/internal/jsre"
+	"github.com/ethereum/go-ethereum/miner"
+	"github.com/ethereum/go-ethereum/node"
 )
 
 const (

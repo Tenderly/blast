@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tenderly/blast/blast-geth/tests/fuzzers/difficulty"
+	"github.com/ethereum/go-ethereum/tests/fuzzers/difficulty"
 )
 
 func main() {

@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/crypto"
-	vfc "github.com/tenderly/blast/blast-geth/les/vflux/client"
-	"github.com/tenderly/blast/blast-geth/p2p/enode"
-	"github.com/tenderly/blast/blast-geth/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
+	vfc "github.com/ethereum/go-ethereum/les/vflux/client"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // Constants to match up protocol versions and messages

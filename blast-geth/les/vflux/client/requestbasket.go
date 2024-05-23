@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/tenderly/blast/blast-geth/les/utils"
-	"github.com/tenderly/blast/blast-geth/rlp"
+	"github.com/ethereum/go-ethereum/les/utils"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

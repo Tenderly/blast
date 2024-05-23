@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/core/forkid"
-	"github.com/tenderly/blast/blast-geth/p2p"
-	"github.com/tenderly/blast/blast-geth/p2p/enode"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/forkid"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

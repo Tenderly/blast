@@ -20,7 +20,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 const (

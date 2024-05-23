@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func minSwapStack(n int) int {

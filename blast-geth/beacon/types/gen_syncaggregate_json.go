@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/tenderly/blast/blast-geth/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 var _ = (*syncAggregateMarshaling)(nil)

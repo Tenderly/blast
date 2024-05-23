@@ -28,9 +28,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tenderly/blast/blast-geth/p2p/enode"
-	"github.com/tenderly/blast/blast-geth/p2p/enr"
-	"github.com/tenderly/blast/blast-geth/rlp"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/urfave/cli/v2"
 )
 

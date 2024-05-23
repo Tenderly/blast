@@ -5,8 +5,8 @@ import (
 	uurl "net/url"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/log"
-	"github.com/tenderly/blast/blast-geth/metrics"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
 	client "github.com/influxdata/influxdb1-client/v2"
 )
 

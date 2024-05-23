@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/eth/protocols/eth"
-	"github.com/tenderly/blast/blast-geth/p2p"
-	"github.com/tenderly/blast/blast-geth/p2p/rlpx"
-	"github.com/tenderly/blast/blast-geth/rlp"
+	"github.com/ethereum/go-ethereum/eth/protocols/eth"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/rlpx"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 type Message interface {

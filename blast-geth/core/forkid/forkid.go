@@ -26,9 +26,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/log"
-	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/params"
 	"golang.org/x/exp/slices"
 )
 
