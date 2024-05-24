@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/tenderly/blast/blast-geth/metrics"
+import "github.com/ethereum/go-ethereum/metrics"
 
 var (
 	accountUpdatedMeter      = metrics.NewRegisteredMeter("state/update/account", nil)

@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common/mclock"
-	"github.com/tenderly/blast/blast-geth/internal/testlog"
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/internal/testlog"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 func TestServerPortMapping(t *testing.T) {

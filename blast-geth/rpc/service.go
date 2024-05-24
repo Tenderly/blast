@@ -25,7 +25,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

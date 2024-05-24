@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/tenderly/blast/blast-geth"
-	"github.com/tenderly/blast/blast-geth/event"
-	"github.com/tenderly/blast/blast-geth/rpc"
+	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current synchronisation status.

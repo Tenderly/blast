@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/ethdb"
-	"github.com/tenderly/blast/blast-geth/ethdb/leveldb"
-	"github.com/tenderly/blast/blast-geth/ethdb/memorydb"
-	"github.com/tenderly/blast/blast-geth/ethdb/pebble"
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/ethdb/leveldb"
+	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/ethereum/go-ethereum/ethdb/pebble"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/olekukonko/tablewriter"
 )
 

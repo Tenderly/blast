@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tenderly/blast/blast-geth/cmd/utils"
+	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/urfave/cli/v2"
 )
 

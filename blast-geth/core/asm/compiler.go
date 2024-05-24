@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tenderly/blast/blast-geth/common/math"
-	"github.com/tenderly/blast/blast-geth/core/vm"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/core/vm"
 )
 
 // Compiler contains information about the parsed source

@@ -20,8 +20,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // BeaconDevSync is a development helper to test synchronization by providing

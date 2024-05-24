@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/tenderly/blast/blast-geth/core/types"
+	"github.com/ethereum/go-ethereum/core/types"
 )
 
 // SenderCacher is a concurrent transaction sender recoverer and cacher.

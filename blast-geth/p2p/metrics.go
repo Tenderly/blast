@@ -22,7 +22,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/tenderly/blast/blast-geth/metrics"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 const (

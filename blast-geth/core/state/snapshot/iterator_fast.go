@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/ethereum/go-ethereum/common"
 	"golang.org/x/exp/slices"
 )
 

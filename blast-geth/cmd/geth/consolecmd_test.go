@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 const (

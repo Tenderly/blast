@@ -17,7 +17,7 @@
 package blobpool
 
 import (
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // Config are the configuration parameters of the blob transaction pool.

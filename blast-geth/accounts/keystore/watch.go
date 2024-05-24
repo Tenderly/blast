@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/fsnotify/fsnotify"
 )
 

@@ -16,7 +16,7 @@
 
 package eth
 
-import "github.com/tenderly/blast/blast-geth/metrics"
+import "github.com/ethereum/go-ethereum/metrics"
 
 // meters stores ingress and egress handshake meters.
 var meters bidirectionalMeters

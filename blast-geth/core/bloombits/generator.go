@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/tenderly/blast/blast-geth/core/types"
+	"github.com/ethereum/go-ethereum/core/types"
 )
 
 var (

@@ -22,13 +22,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/core/rawdb"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/ethdb"
-	"github.com/tenderly/blast/blast-geth/rlp"
-	"github.com/tenderly/blast/blast-geth/trie/testutil"
-	"github.com/tenderly/blast/blast-geth/trie/triestate"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum/trie/testutil"
+	"github.com/ethereum/go-ethereum/trie/triestate"
 )
 
 // randomStateSet generates a random state change set.

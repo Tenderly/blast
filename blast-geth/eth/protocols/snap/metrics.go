@@ -17,7 +17,7 @@
 package snap
 
 import (
-	metrics "github.com/tenderly/blast/blast-geth/metrics"
+	metrics "github.com/ethereum/go-ethereum/metrics"
 )
 
 var (

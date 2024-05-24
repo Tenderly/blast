@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/light"
+	"github.com/ethereum/go-ethereum/light"
 )
 
 var (
