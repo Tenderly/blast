@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common/mclock"
-	"github.com/tenderly/blast/blast-geth/ethdb"
-	"github.com/tenderly/blast/blast-geth/ethdb/memorydb"
-	"github.com/tenderly/blast/blast-geth/p2p/enode"
-	"github.com/tenderly/blast/blast-geth/p2p/enr"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enr"
 )
 
 const (

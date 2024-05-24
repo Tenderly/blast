@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/tenderly/blast/blast-geth/event"
+	"github.com/ethereum/go-ethereum/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

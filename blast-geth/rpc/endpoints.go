@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

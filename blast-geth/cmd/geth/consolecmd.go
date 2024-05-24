@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tenderly/blast/blast-geth/cmd/utils"
-	"github.com/tenderly/blast/blast-geth/console"
-	"github.com/tenderly/blast/blast-geth/internal/flags"
+	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/ethereum/go-ethereum/console"
+	"github.com/ethereum/go-ethereum/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

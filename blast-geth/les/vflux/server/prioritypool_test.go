@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common/mclock"
-	"github.com/tenderly/blast/blast-geth/p2p/enode"
-	"github.com/tenderly/blast/blast-geth/p2p/enr"
-	"github.com/tenderly/blast/blast-geth/p2p/nodestate"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ethereum/go-ethereum/p2p/nodestate"
 )
 
 const (

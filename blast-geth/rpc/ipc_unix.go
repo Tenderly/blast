@@ -26,7 +26,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 )
 

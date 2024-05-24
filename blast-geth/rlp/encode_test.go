@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/common/math"
+	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/holiman/uint256"
 )
 

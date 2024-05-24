@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 type packUnpackTest struct {

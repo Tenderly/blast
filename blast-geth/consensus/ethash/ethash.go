@@ -20,9 +20,9 @@ package ethash
 import (
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/consensus"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/rpc"
+	"github.com/ethereum/go-ethereum/consensus"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/rpc"
 )
 
 // Ethash is a consensus engine based on proof-of-work implementing the ethash

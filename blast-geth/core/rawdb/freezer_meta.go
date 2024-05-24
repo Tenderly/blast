@@ -20,8 +20,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/tenderly/blast/blast-geth/log"
-	"github.com/tenderly/blast/blast-geth/rlp"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const freezerVersion = 1 // The initial version tag of freezer table metadata

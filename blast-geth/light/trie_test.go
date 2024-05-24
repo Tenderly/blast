@@ -25,13 +25,13 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tenderly/blast/blast-geth/consensus/ethash"
-	"github.com/tenderly/blast/blast-geth/core"
-	"github.com/tenderly/blast/blast-geth/core/rawdb"
-	"github.com/tenderly/blast/blast-geth/core/state"
-	"github.com/tenderly/blast/blast-geth/core/vm"
-	"github.com/tenderly/blast/blast-geth/params"
-	"github.com/tenderly/blast/blast-geth/trie"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

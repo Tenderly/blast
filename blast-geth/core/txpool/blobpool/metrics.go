@@ -16,7 +16,7 @@
 
 package blobpool
 
-import "github.com/tenderly/blast/blast-geth/metrics"
+import "github.com/ethereum/go-ethereum/metrics"
 
 var (
 	// datacapGauge tracks the user's configured capacity for the blob pool. It

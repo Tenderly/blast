@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 // TestExport does a basic test of "geth export", exporting the test-genesis.

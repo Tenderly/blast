@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/tenderly/blast/blast-geth/core/forkid"
-	"github.com/tenderly/blast/blast-geth/p2p/dnsdisc"
-	"github.com/tenderly/blast/blast-geth/p2p/enode"
-	"github.com/tenderly/blast/blast-geth/rlp"
+	"github.com/ethereum/go-ethereum/core/forkid"
+	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/common/mclock"
+	"github.com/ethereum/go-ethereum/common/mclock"
 )
 
 type UpdateTimer struct {

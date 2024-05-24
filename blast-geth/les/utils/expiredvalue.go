@@ -20,7 +20,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/tenderly/blast/blast-geth/common/mclock"
+	"github.com/ethereum/go-ethereum/common/mclock"
 )
 
 // ExpiredValue is a scalar value that is continuously expired (decreased

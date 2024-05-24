@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/tenderly/blast/blast-geth/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 // FromHex returns the bytes represented by the hexadecimal string s.

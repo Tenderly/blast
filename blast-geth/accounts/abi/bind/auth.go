@@ -23,13 +23,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/tenderly/blast/blast-geth/accounts"
-	"github.com/tenderly/blast/blast-geth/accounts/external"
-	"github.com/tenderly/blast/blast-geth/accounts/keystore"
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/crypto"
-	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/ethereum/go-ethereum/accounts/external"
+	"github.com/ethereum/go-ethereum/accounts/keystore"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

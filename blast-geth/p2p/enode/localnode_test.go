@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/crypto"
-	"github.com/tenderly/blast/blast-geth/p2p/enr"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

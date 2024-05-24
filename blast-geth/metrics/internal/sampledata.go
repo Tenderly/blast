@@ -22,7 +22,7 @@ import (
 	metrics2 "runtime/metrics"
 	"time"
 
-	"github.com/tenderly/blast/blast-geth/metrics"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 // ExampleMetrics returns an ordered registry populated with a sample of metrics.

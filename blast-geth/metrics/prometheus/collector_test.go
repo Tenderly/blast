@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/metrics"
-	"github.com/tenderly/blast/blast-geth/metrics/internal"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/metrics/internal"
 )
 
 func TestMain(m *testing.M) {

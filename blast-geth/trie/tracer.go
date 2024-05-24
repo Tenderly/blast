@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 // tracer tracks the changes of trie nodes. During the trie operations,

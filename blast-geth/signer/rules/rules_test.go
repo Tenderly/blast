@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenderly/blast/blast-geth/accounts"
-	"github.com/tenderly/blast/blast-geth/common"
-	"github.com/tenderly/blast/blast-geth/common/hexutil"
-	"github.com/tenderly/blast/blast-geth/core/types"
-	"github.com/tenderly/blast/blast-geth/internal/ethapi"
-	"github.com/tenderly/blast/blast-geth/signer/core"
-	"github.com/tenderly/blast/blast-geth/signer/core/apitypes"
-	"github.com/tenderly/blast/blast-geth/signer/storage"
+	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/ethereum/go-ethereum/signer/core"
+	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/ethereum/go-ethereum/signer/storage"
 )
 
 const JS = `

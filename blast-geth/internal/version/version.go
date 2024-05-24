@@ -23,10 +23,10 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
-const ourPath = "github.com/tenderly/blast/blast-geth" // Path to our module
+const ourPath = "github.com/ethereum/go-ethereum" // Path to our module
 
 // These variables are set at build-time by the linker when the build is
 // done by build/ci.go.
