@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/tenderly/blast/blast-geth/core"
+	"github.com/tenderly/blast/blast-geth/core/forkid"
+	"github.com/tenderly/blast/blast-geth/core/types"
+	"github.com/tenderly/blast/blast-geth/p2p"
+	"github.com/tenderly/blast/blast-geth/p2p/enode"
+	"github.com/tenderly/blast/blast-geth/params"
 )
 
 type testServerPeerSub struct {

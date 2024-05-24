@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/blast/blast-geth/common"
+	"github.com/tenderly/blast/blast-geth/common/lru"
+	"github.com/tenderly/blast/blast-geth/core"
+	"github.com/tenderly/blast/blast-geth/core/types"
+	"github.com/tenderly/blast/blast-geth/event"
+	"github.com/tenderly/blast/blast-geth/log"
+	"github.com/tenderly/blast/blast-geth/params"
+	"github.com/tenderly/blast/blast-geth/rpc"
 	"golang.org/x/exp/slices"
 )
 
