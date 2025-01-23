@@ -4,10 +4,10 @@ import (
 	"crypto/ecdsa"
 	"testing"
 
+	"github.com/holiman/uint256"
 	"github.com/tenderly/blast/blast-geth/common"
 	"github.com/tenderly/blast/blast-geth/crypto"
 	"github.com/tenderly/blast/blast-geth/crypto/kzg4844"
-	"github.com/holiman/uint256"
 )
 
 // This test verifies that tx.Hash() is not affected by presence of a BlobTxSidecar.
@@ -60,8 +60,8 @@ func TestBlobTxSize(t *testing.T) {
 
 var (
 	emptyBlob          = kzg4844.Blob{}
-	emptyBlobCommit, _ = kzg4844.BlobToCommitment(emptyBlob)
-	emptyBlobProof, _  = kzg4844.ComputeBlobProof(emptyBlob, emptyBlobCommit)
+	emptyBlobCommit, _ = kzg4844.BlobToCommitment(&emptyBlob)
+	emptyBlobProof, _  = kzg4844.ComputeBlobProof(&emptyBlob, emptyBlobCommit)
 )
 
 func createEmptyBlobTx(key *ecdsa.PrivateKey, withSidecar bool) *Transaction {
